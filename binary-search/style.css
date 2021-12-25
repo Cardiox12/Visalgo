@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.input-container > input {
+    width: 400px;
+    margin-right: 20px;
+}
+
+.input-container > button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+#main-container {
+    height: 200px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-container {
+    display: flex;
+}
+
+.cell {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.cell-visible {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+header {
+    height: 100px;
+}
+
+header > h1 {
+    margin-top: 20px;
+}
